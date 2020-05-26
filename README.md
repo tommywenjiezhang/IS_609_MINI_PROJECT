@@ -1,7 +1,7 @@
 ## IS601 MINI PROJECT
 By [Wenjie Zhang](), [Vito DePalo]()
 
-##How to clone respository
+## How to clone respository
 ```
 git clone
 ```
