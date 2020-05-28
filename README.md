@@ -17,3 +17,4 @@ git pull
 ```
 git push
 ```
+**git push** - updates the remote repositorywith any commits made locally to a branch.
