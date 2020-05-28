@@ -8,7 +8,7 @@ git clone https://github.com/tommywenjiezhang/IS_609_MINI_PROJECT.git
 ## How to fetch your respository
 ```
 git pull 
-```
+**git pull** - updates the local line of development with updates from ts remote counterpart.
 ## How to push to a remote respository
 ```
 git push
