@@ -1,5 +1,13 @@
 # IS601 MINI PROJECT
 By [Wenjie Zhang](), [Vito DePalo]()
+
+This projects explains how the usage of Git, Docker, automated testing, and continuous integration can improve the productivity and competitiveness of a company.
+## gitFlow, git commands and terminology
+The gitFlow Workflow is a lightweight branch based workflow built around the core Git commands used by teams around the globe. There are six steps to the Workflow. 1) Create a branch, 2) Add commits, 3) open a pull request, 4) Discuss and review code, 5) Merge, and 6) Deploy.
+
+## gitflow illustration ##
+![GitFlow Diagram](https://datasift.github.io/gitflow/GitFlowFeatureBranches.png)
+
 ## Table of Content
 1. [What is a repository](#What-is-a-repository)
 2. [Cloning  a respository](#How-to-clone-respository)
@@ -14,11 +22,11 @@ By [Wenjie Zhang](), [Vito DePalo]()
 11. [Status](#status)
 12. [Master Branch](#master)
 
-<<<<<<< HEAD
+
 ## What is a repository
 A repository is like a folder for your project. Your project's repository contains all of your project's files and stores each file's revision history.
 ## How to clone respository
-type the following command
+git clone - creates a local copy or Clone of a project that already exists remotely.
 ```
 git clone https://github.com/tommywenjiezhang/IS_609_MINI_PROJECT.git
 ```
@@ -30,6 +38,13 @@ A fork is a copy of a repository. Forking a repository allows you to freely expe
 - Submit a pull request to the project owner.
 ##Branch
 Branch allows for parallel work. New development (such as features and non-emergency bug fixes) is done in feature branches, and is only merged back into main body of code when the developer(s) is happy that the code is ready for release.
+
+**git branch** - shows the branches being worked on locally.
+```
+git branch 
+git branch -a // "-a" flag will make sure remote branches are also included in the list.
+git branch -d <branch> //Deletes a specified branch.
+```
 ###How to create a new Branch 
 To create a new branch and switch to it at the same time, you can run the git checkout command with the -b switch:
 ```
@@ -47,29 +62,18 @@ The git commit command captures a snapshot of the project's currently staged cha
 ```
 git commit -m"new Commit"
 ```
-=======
-## explain how the usage of Git, Docker, automated testing, and continuous integration can improve the productivity and competitiveness of a company.
-
-## gitFlow, git commands and terminology
-The gitFlow Workflow is a lightweight branch based workflow built around the core Git commands used by teams around the globe. There are six steps to the Workflow. 1) Create a branch, 2) Add commits, 3) open a pull request, 4) Discuss and review code, 5) Merge, and 6) Deploy.
-
-## gitflow illustration ##
-![GitFlow Diagram](https://datasift.github.io/gitflow/GitFlowFeatureBranches.png)
-
-## How to clone respository
-git clone - creates a local copy or Clone of a project that already exists remotely.
->>>>>>> b158dd078d1fb8512c0c6ef4aa3290b6df92f25a
 ## How to fetch your respository
 git pull- updates the local line of development with updates from ts remote counterpart.
+```
+git pull
+```
+## git merge
+
 ## How to push to a remote respository
-<<<<<<< HEAD
+git push - updates the remote repository with any commits made locally to a branch.
 ```
 git push
 ```
-## Branch
-=======
-git push - updates the remote repositorywith any commits made locally to a branch.
 
-**git branch** - shows the branches being worked on locally.
 
->>>>>>> b158dd078d1fb8512c0c6ef4aa3290b6df92f25a
+
