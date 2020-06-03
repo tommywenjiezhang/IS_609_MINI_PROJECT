@@ -30,13 +30,13 @@ git clone - creates a local copy or Clone of a project that already exists remot
 ```
 git clone https://github.com/tommywenjiezhang/IS_609_MINI_PROJECT.git
 ```
-##Fork
+## Fork
 A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
-###Steps to Fork:
+### Steps to Fork:
 - Fork the repository.
 - Make the fix.
 - Submit a pull request to the project owner.
-##Branch
+## Branch
 Branch allows for parallel work. New development (such as features and non-emergency bug fixes) is done in feature branches, and is only merged back into main body of code when the developer(s) is happy that the code is ready for release.
 
 **git branch** - shows the branches being worked on locally.
@@ -45,7 +45,7 @@ git branch
 git branch -a // "-a" flag will make sure remote branches are also included in the list.
 git branch -d <branch> //Deletes a specified branch.
 ```
-###How to create a new Branch 
+### How to create a new Branch 
 To create a new branch and switch to it at the same time, you can run the git checkout command with the -b switch:
 ```
 $ git checkout -b new
@@ -57,7 +57,7 @@ git commit -a -m 'new change'
 git checkout master
 git merge new
 ```
-##Commit
+## Commit
 The git commit command captures a snapshot of the project's currently staged changes. 
 ```
 git commit -m"new Commit"
