@@ -3,7 +3,13 @@ By [Wenjie Zhang](), [Vito DePalo]()
 
 This projects explains how the usage of Git, Docker, automated testing, and continuous integration can improve the productivity and competitiveness of a company.
 ## gitFlow, git commands and terminology
-The gitFlow Workflow is a lightweight branch based workflow built around the core Git commands used by teams around the globe. There are six steps to the Workflow. 1) Create a branch, 2) Add commits, 3) open a pull request, 4) Discuss and review code, 5) Merge, and 6) Deploy.
+The gitFlow Workflow is a lightweight branch based workflow built around the core Git commands used by teams around the globe. There are six steps to the Workflow. 
+1. Create a branch, 
+2. Add commits 
+3. open a pull request 
+4.  Discuss and review code, 
+5.  Merge 
+6.  Deploy.
 
 ## gitflow illustration ##
 ![GitFlow Diagram](https://datasift.github.io/gitflow/GitFlowFeatureBranches.png)
@@ -15,7 +21,7 @@ The gitFlow Workflow is a lightweight branch based workflow built around the cor
 4. [Branch](#branch)
 5. [Commit](#Commit)
 6. [Merge](#merge)
-7. [Checkout](#checkout)
+7. [Checkout](#Checkout)
 8. [Push](#push)
 9. [Pull](#pull)
 10. [Remote Add / Remove / Show](#remote)
@@ -67,7 +73,18 @@ git pull- updates the local line of development with updates from ts remote coun
 ```
 git pull
 ```
-## git merge
+## Merge
+Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch. 
+```
+ A---B---C feature
+	 /         \
+    D---E---F---G---H master
+```
+### How to merge
+```
+ git merge fixes enhancements
+```
+## Checkout
 
 ## How to push to a remote respository
 git push - updates the remote repository with any commits made locally to a branch.
