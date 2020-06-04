@@ -84,3 +84,8 @@ git pull- updates the local line of development with updates from ts remote coun
 ```
 git pull <remote-name> <branch-name>
 ```
+## How to Add/Remove/Show Remote
+To add a new remote, use the git remote add command in the directory where your repository is stored.
+```
+git remote add origin https://github.com/user/repo.git
+```
