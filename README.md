@@ -22,7 +22,7 @@ The gitFlow Workflow is a lightweight branch based workflow built around the cor
 5. [Commit](#Commit)
 6. [Merge](#merge)
 7. [Checkout](#Checkout)
-8. [Push](#push)
+8. [Push](#Push)
 9. [Pull](#pull)
 10. [Remote Add / Remove / Show](#remote)
 11. [Status](#status)
@@ -93,8 +93,11 @@ another_branch
 feature_inprogress_branch
 git checkout feature_inprogress_branch
 ```
-
-
+## Push
+The git push command is used to upload local repository content to a remote repository. 
+```
+git push <remote> <branch>
+```
 ## How to push to a remote respository
 git push - updates the remote repository with any commits made locally to a branch.
 ```
