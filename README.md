@@ -85,6 +85,15 @@ Incorporates changes from the named commits (since the time their histories dive
  git merge fixes enhancements
 ```
 ## Checkout
+The git checkout command lets you navigate between the branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch. 
+```
+git branch
+master
+another_branch
+feature_inprogress_branch
+git checkout feature_inprogress_branch
+```
+
 
 ## How to push to a remote respository
 git push - updates the remote repository with any commits made locally to a branch.
