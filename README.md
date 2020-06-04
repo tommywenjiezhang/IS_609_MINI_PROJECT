@@ -56,29 +56,39 @@ To create a new branch and switch to it at the same time, you can run the git ch
 $ git checkout -b new
 Switched to a new branch "new"
 ```
+## Commit
+The git commit command captures a snapshot of the project's currently staged changes. 
+```
+git commit -m"new Commit"
+```
+## Merge
+The git merge command merges lines of development together. This command is typically used to combine changes made on two distinct branches.
 Once you are comfortable with development in the new branch you merge it back into master by
 ```
 git commit -a -m 'new change'
 git checkout master
 git merge new
 ```
-## Commit
-The git commit command captures a snapshot of the project's currently staged changes. 
+## Checkout
+git checkout - allows you to navigate between the branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch.
 ```
-git commit -m"new Commit"
+git checkout master
+```
+## How to push to a remote respository
+git push - updates the remote repository with any commits made locally to a branch.
+```
+git push <remote> <branch>
 ```
 ## How to fetch your respository
 git pull- updates the local line of development with updates from ts remote counterpart.
 ```
-git pull
+git pull <remote-name> <branch-name>
 ```
-## git merge
 
-## How to push to a remote respository
-git push - updates the remote repository with any commits made locally to a branch.
+
+
 ```
-git push
-```
+
 
 
 
