@@ -106,3 +106,8 @@ git status
 ```
 The default branch name in Git is master . As you start making commits, you're given a master branch that points to the last commit you made. Every time you commit, the master branch pointer moves forward automatically.
 ```
+## Sources ##
+1. https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+2. https://datasift.github.io/gitflow/IntroducingGitFlow.html
+3. https://www.git-tower.com/learn/git/glossary
+4. https://guides.github.com/features/mastering-markdown
