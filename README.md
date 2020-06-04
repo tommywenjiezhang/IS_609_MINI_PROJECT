@@ -89,3 +89,19 @@ To add a new remote, use the git remote add command in the directory where your 
 ```
 git remote add origin https://github.com/user/repo.git
 ```
+To remove a remote use the git remote rm command to remove a remote URL from your repository.
+```
+git remote rm <destination>
+```
+To see more information about a particular remote, you can use the git remote show <remote> command.
+```
+git remote show <origin>
+```
+## Status
+You can use git status to check if your local branch is up-to-date with the original one.
+```
+git status
+```
+## Master Branch
+```
+The default branch name in Git is master . As you start making commits, you're given a master branch that points to the last commit you made. Every time you commit, the master branch pointer moves forward automatically.
