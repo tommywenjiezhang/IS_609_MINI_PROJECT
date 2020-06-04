@@ -2,6 +2,11 @@
 By [Wenjie Zhang](), [Vito DePalo]()
 
 This projects explains how the usage of Git, Docker, automated testing, and continuous integration can improve the productivity and competitiveness of a company.
+1. GIT is a source code management tool, basically software that manages changes or a type of verison control. GIT is distributed Linux operating system software developed by the founder of Linux Linus Torvalds. GIT allowas developers to collaborate in software teams, revert changes and keep track of code, like an index through comments. Because GIT is a open collaborative tool it allows alot more flwxibility to the team that increases productivity and competitiveness as you can see changes and make comments dynamically tha also allows to adapt to changes more effectively and more efficiently.
+2. Docker is a software containerization platform, meaning you can build your application, package them along with their dependencies into a container and then these containers can be easily shipped to run on other machines. As stated by Vineet Chaturvedi in the Docker Tutorial.The biggest advantage for productivity is that developers or other team members like testers can use docker without installing a special software application and using Docker on an open platform, and once again it is more effective and efficient to develop and modify code and get it into prodcuction.
+3. Automated testing that can be acheived by using both Git and Docker can expand your testing capacity, the number of test cases, get faster feedback as the results are readily avaialble to the interested parties, and improve quality through more substantial testing opposed to manual testing.
+4. Continuous Integration allows the developer to continuously integrate code into a single shared and easy to access repository. This leads to smaller code changes, faster times to debug, more test reliability, faster release dates and usually better customer satisfactiom which is key for better productivity and effective competitiveness in a company.
+
 ## gitFlow, git commands and terminology
 The gitFlow Workflow is a lightweight branch based workflow built around the core Git commands used by teams around the globe. There are six steps to the Workflow. 1) Create a branch, 2) Add commits, 3) open a pull request, 4) Discuss and review code, 5) Merge, and 6) Deploy.
 
