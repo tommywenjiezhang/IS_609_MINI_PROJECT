@@ -84,11 +84,3 @@ git pull- updates the local line of development with updates from ts remote coun
 ```
 git pull <remote-name> <branch-name>
 ```
-
-
-
-```
-
-
-
-
