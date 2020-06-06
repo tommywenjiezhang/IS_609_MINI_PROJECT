@@ -29,8 +29,8 @@ The gitFlow Workflow is a lightweight branch based workflow built around the cor
 7. [Checkout](#Checkout)
 8. [Push](#Push)
 9. [Pull](#pull)
-10. [Remote Add / Remove / Show](#remote)
-11. [Status](#status)
+10. [Remote Add / Remove / Show](#Remote)
+11. [Status](#Status)
 12. [Master Branch](#master)
 
 
@@ -102,6 +102,30 @@ git checkout feature_inprogress_branch
 The git push command is used to upload local repository content to a remote repository. 
 ```
 git push <remote> <branch>
+```
+## Remote
+The git remote command lets you create, view, and delete connections to other repositories.
+Remote connections are more like bookmarks rather than direct links into other repositories.
+### Creating  remote configurations
+```
+git remote add <name> <url>
+```
+### Removing a remote
+The command git remote rm will remove the connection to the remote repository specified by the <name> parameter. 
+```
+git remote rm <name>
+```
+### Show
+The show subcommand can be appended to git remote to give detailed output on the configuration of a remote. 
+```
+git remote show origin
+```
+
+## Status
+Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git 
+###  usage
+```
+git status
 ```
 ## How to push to a remote respository
 git push - updates the remote repository with any commits made locally to a branch.
