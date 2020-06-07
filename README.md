@@ -111,4 +111,3 @@ The default branch name in Git is master . As you start making commits, you're g
 2. https://datasift.github.io/gitflow/IntroducingGitFlow.html
 3. https://www.git-tower.com/learn/git/glossary
 4. https://guides.github.com/features/mastering-markdown
-  
