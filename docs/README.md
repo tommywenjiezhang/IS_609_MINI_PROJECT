@@ -1,6 +1,6 @@
 # IS601 MINI PROJECT
 By [Wenjie Zhang](), [Vito DePalo]()
-
+## Getting started
 This projects explains how the usage of Git, Docker, automated testing, and continuous integration can improve the productivity and competitiveness of a company.
 1. GIT is a source code management tool, basically software that manages changes or a type of verison control. GIT is distributed Linux operating system software developed by the founder of Linux Linus Torvalds. GIT allowas developers to collaborate in software teams, revert changes and keep track of code, like an index through comments. Because GIT is a open collaborative tool it allows alot more flwxibility to the team that increases productivity and competitiveness as you can see changes and make comments dynamically tha also allows to adapt to changes more effectively and more efficiently.
 2. Docker is a software containerization platform, meaning you can build your application, package them along with their dependencies into a container and then these containers can be easily shipped to run on other machines. As stated by Vineet Chaturvedi in the Docker Tutorial.The biggest advantage for productivity is that developers or other team members like testers can use docker without installing a special software application and using Docker on an open platform, and once again it is more effective and efficient to develop and modify code and get it into prodcuction.
