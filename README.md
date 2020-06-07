@@ -32,6 +32,7 @@ The gitFlow Workflow is a lightweight branch based workflow built around the cor
 10. [Remote Add / Remove / Show](#Remote)
 11. [Status](#Status)
 12. [Master Branch](#master)
+13. [Changelog](changlog.md)
 
 
 ## What is a repository
