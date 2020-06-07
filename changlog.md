@@ -1,0 +1,39 @@
+# Changelog
+- 2aaaeec - tommywenjiezhang, 5 hours ago : change heading in doc
+- 09ea6c7 - tommywenjiezhang, 5 hours ago : delete unecessary file
+- 8e9186f - tommywenjiezhang, 5 hours ago : add content for merge and checkout
+- 57679de - tommywenjiezhang, 5 hours ago : create a documentation website
+- ba1c28f - tommywenjiezhang, 2 days ago : add content for push master branch
+- 333792e - WENJIE ZHANG, 3 days ago : Merge pull request #7 from vd265/patch-1
+- 217353d - WENJIE ZHANG, 4 days ago : Merge pull request #5 from tommywenjiezhang/feature
+- 6cd0cd6 - tommywenjiezhang, 4 days ago : add content for push
+- c4e8770 - tommywenjiezhang, 4 days ago : add content for merge and checkout
+- 123f936 - tommywenjiezhang, 4 days ago : add content for merge and checkout
+- e9d0378 - vd265, 4 days ago : Update README.md
+- 01b0246 - WENJIE ZHANG, 5 days ago : format
+- 30b3b67 - tommywenjiezhang, 5 days ago : branch edit format
+- 9ec412e - tommywenjiezhang, 5 days ago : Merge branch 'master' of https://github.com/tommywenjiezhang/IS_609_MINI_PROJECT
+- 955a95b - tommywenjiezhang, 5 days ago : add commit branch
+- b158dd0 - WENJIE ZHANG, 5 days ago : Merge pull request #2 from vd265/vd265-patch-1
+- 7128cb8 - tommywenjiezhang, 5 days ago : Update readme
+- 0abf72e - vd265, 6 days ago : Task: included the GitFlow Diagram link
+- c9ea9c2 - vd265, 6 days ago : Fix: update information on project
+- 9b046d2 - vd265, 6 days ago : Feature: added gitFlow illustration
+- 4b8e50e - vd265, 6 days ago : Fix: Update to git branch definition
+- 326d42b - vd265, 6 days ago : Feature: Updated with definition of git branch
+- 80a13d2 - vd265, 6 days ago : Fix: Updated gitFlow definition
+- c508dc5 - vd265, 6 days ago : Fix: updated definition of gitFlow
+- 4b37de2 - vd265, 6 days ago : Feature: Added definition of gitFlow
+- cd1ff7d - vd265, 11 days ago : Format changes
+- 14fc1b0 - vd265, 11 days ago : Formatting changes
+- fd83806 - vd265, 11 days ago : Format changes
+- fad92db - vd265, 11 days ago : Format changes
+- d9b9621 - vd265, 11 days ago : Feature: Definition of git push
+- 43e7823 - vd265, 11 days ago : update formatting
+- a9a276d - vd265, 11 days ago : Feature: Definition of git pull
+- bdc98c2 - vd265, 11 days ago : feature: definition of git clone
+- fde755c - WENJIE ZHANG, 12 days ago : Update README.md
+- e3dd57d - WENJIE ZHANG, 12 days ago : Update README.md
+- 97d48ac - WENJIE ZHANG, 12 days ago : Update README.md
+- 1bff5dd - WENJIE ZHANG, 12 days ago : update readme
+- 1ff6119 - WENJIE ZHANG, 12 days ago : Initial commit
