@@ -1,4 +1,4 @@
-# IS601 MINI PROJECT <small>3.5</small>
+# IS601 MINI PROJECT <small>1.0</small>
 
 > Simple Documenation for Git .
 
