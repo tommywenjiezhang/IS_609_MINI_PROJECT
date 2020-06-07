@@ -95,7 +95,6 @@ git pull <remote-name> <branch-name>
 
 ## How to Add/Remove/Show Remote
 To add a new remote, use the git remote add command in the directory where your repository is stored.
-=======
 ## Merge
 Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch. 
 ```
